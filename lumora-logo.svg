@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320" height="60" viewBox="0 0 320 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lumoraGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0e3f" />
+      <stop offset="100%" stop-color="#50c4ba" />
+    </linearGradient>
+  </defs>
+  <text x="0" y="45" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="url(#lumoraGradient)">LUMORA</text>
+</svg>
