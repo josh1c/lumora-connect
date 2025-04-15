@@ -176,7 +176,7 @@
       <p>Enter your Connect ID below to begin:</p>
       <input type="text" placeholder="Enter ID">
       <div class="btn-wrapper">
-        <button>Connect</button>
+        <button onclick="handleConnect()">Connect</button>
       </div>
     </div>
   </div>
@@ -187,6 +187,16 @@
     function toggleMode() {
       document.body.classList.toggle('light');
     }
-  </script>
+  
+    function handleConnect() {
+      const id = document.querySelector('input[type="text"]').value.trim();
+      if (id) {
+        const url = "https://eu.ninjarmm.com/connect/#/" + encodeURIComponent(id);
+        window.location.href = url;
+      } else {
+        alert("Please enter a valid Connect ID.");
+      }
+    }
+    </script>
 </body>
 </html>
